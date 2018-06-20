@@ -1,0 +1,923 @@
+2018-06-15 18:16:13 Notice: Notice (8): Trying to get property 'name' of non-object in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 33]
+Request URL: /schedules
+Referer URL: http://localhost:8765/monitors
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 33
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:44:11 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 59]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 59
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:45:28 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 59]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 59
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:47:43 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 59]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 59
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:53:31 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 59]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 59
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:54:30 Notice: Notice (8): Undefined variable: schedule in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/view.ctp, line 10]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/view.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:54:30 Notice: Notice (8): Trying to get property 'id' of non-object in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/view.ctp, line 10]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/view.ctp, line 10
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:54:30 Notice: Notice (8): Undefined variable: schedule in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/view.ctp, line 11]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/view.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:54:30 Notice: Notice (8): Trying to get property 'id' of non-object in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/view.ctp, line 11]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/view.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:54:30 Notice: Notice (8): Undefined variable: schedule in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/view.ctp, line 11]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/view.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:54:30 Notice: Notice (8): Trying to get property 'id' of non-object in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/view.ctp, line 11]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/view.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:54:30 Notice: Notice (8): Undefined variable: schedule in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/view.ctp, line 19]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/view.ctp, line 19
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:54:30 Notice: Notice (8): Trying to get property 'id' of non-object in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/view.ctp, line 19]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/view.ctp, line 19
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 12:54:30 Notice: Notice (8): Undefined variable: schedule in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/view.ctp, line 23]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/view.ctp, line 23
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:31:34 Notice: Notice (8): Undefined variable: Auth in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 21]
+Request URL: /schedules/view/1
+Referer URL: http://localhost:8765/schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:35:04 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 56]
+Request URL: /schedules/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 56
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:35:04 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 41]
+Request URL: /schedules/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:35:35 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 56]
+Request URL: /schedules/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 56
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:35:35 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 41]
+Request URL: /schedules/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:35:36 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 56]
+Request URL: /schedules/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 56
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:35:36 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 41]
+Request URL: /schedules/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:45:21 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 56]
+Request URL: /schedules/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 56
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:45:23 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 56]
+Request URL: /schedules/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 56
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:45:31 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 56]
+Request URL: /schedules/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 56
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:45:50 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 56]
+Request URL: /schedules
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 56
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:46:38 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 56]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 56
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:56:07 Notice: Notice (8): Undefined variable: userrr in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 41]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:56:19 Notice: Notice (8): Undefined variable: userrr in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 41]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:56:33 Notice: Notice (8): Undefined variable: userrr in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 41]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:57:37 Notice: Notice (8): Undefined variable: user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Schedules/index.ctp, line 56]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Schedules/index.ctp, line 56
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::render() - CORE/src/View/View.php, line 803
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-19 13:58:44 Notice: Notice (8): Undefined variable: userrr in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 41]
+Request URL: /schedules
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-20 16:52:44 Notice: Notice (8): Undefined variable: _user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 41]
+Request URL: /users/login?redirect=%2Fschedules%2Fadd
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+
+2018-06-20 16:53:15 Notice: Notice (8): Undefined variable: _user in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Template/Layout/default.ctp, line 41]
+Request URL: /users/login?redirect=%2Fschedules%2Fadd
+Referer URL: http://localhost:8765/users/login?redirect=%2Fschedules%2Fadd
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Core\Plugin::{closure}() - ROOT/vendor/cakephp/debug_kit/config/bootstrap.php, line 41
+include - APP/Template/Layout/default.ctp, line 41
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1240
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+Cake\View\View::renderLayout() - CORE/src/View/View.php, line 850
+Cake\View\View::render() - CORE/src/View/View.php, line 808
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 777
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 126
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 94
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 228
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 158
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 98
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 98
+[main] - ROOT/webroot/index.php, line 40
+
+
+

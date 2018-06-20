@@ -1,0 +1,50 @@
+2018-06-15 13:19:11 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Model/Table/UsersTable.php on line 78
+Stack Trace:
+#0 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Model\\Table...')
+#4 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Us...', 'App')
+#5 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(246): Cake\Core\App::className('Users', 'Model/Table', 'Table')
+#6 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(194): Cake\ORM\Locator\TableLocator->_getClassName('Users', Array)
+#7 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(195): Cake\ORM\Locator\TableLocator->get('Users', Array)
+#8 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(414): Bake\Shell\Task\ModelTask->getTableObject('Users', 'users')
+#9 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(231): Bake\Shell\Task\ModelTask->findHasMany(Object(App\Model\Table\SchedulesTable), Array)
+#10 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\SchedulesTable))
+#11 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\SchedulesTable), 'schedules', 'Schedules')
+#12 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Schedules')
+#13 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/BakeShell.php(272): Bake\Shell\Task\ModelTask->main('Schedules')
+#14 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Schedules', 0)
+#15 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/BakeShell.php(273): Cake\Collection\Collection->each(Object(Closure))
+#16 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Console/Shell.php(518): Bake\Shell\BakeShell->all('schedules')
+#17 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#18 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#19 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#20 {main}
+
+
+2018-06-15 13:20:18 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/src/Model/Table/UsersTable.php on line 78
+Stack Trace:
+#0 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Model\\Table...')
+#4 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Us...', 'App')
+#5 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(246): Cake\Core\App::className('Users', 'Model/Table', 'Table')
+#6 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(194): Cake\ORM\Locator\TableLocator->_getClassName('Users', Array)
+#7 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(195): Cake\ORM\Locator\TableLocator->get('Users', Array)
+#8 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(414): Bake\Shell\Task\ModelTask->getTableObject('Users', 'users')
+#9 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(231): Bake\Shell\Task\ModelTask->findHasMany(Object(App\Model\Table\SchedulesTable), Array)
+#10 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\SchedulesTable))
+#11 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\SchedulesTable), 'schedules', 'Schedules')
+#12 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Schedules')
+#13 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/BakeShell.php(272): Bake\Shell\Task\ModelTask->main('Schedules')
+#14 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Schedules', 0)
+#15 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/Shell/BakeShell.php(273): Cake\Collection\Collection->each(Object(Closure))
+#16 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Console/Shell.php(518): Bake\Shell\BakeShell->all('schedules')
+#17 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#18 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#19 /home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#20 {main}
+
+

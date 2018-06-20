@@ -1,0 +1,50 @@
+2018-06-15 17:57:20 Notice: Notice (8): Undefined index: Schedules in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_60113062ca4d9ea67bb5597dfac2d327bcf6acd7edb4138a0735d52a6f58d1f6::doDisplay() - ROOT/tmp/cache/twigView/de/de17f50e7863c8a373c9ce9b41277de1d094e106cf9cd3de6ea652a47b584a47.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 272
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 273
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 518
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-06-15 18:03:02 Notice: Notice (8): Undefined index: Users in [/home/alunoifpe/Área de Trabalho/avaliação/agendamento_blog/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_60113062ca4d9ea67bb5597dfac2d327bcf6acd7edb4138a0735d52a6f58d1f6::doDisplay() - ROOT/tmp/cache/twigView/de/de17f50e7863c8a373c9ce9b41277de1d094e106cf9cd3de6ea652a47b584a47.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 956
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 114
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 100
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 272
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 273
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 518
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
